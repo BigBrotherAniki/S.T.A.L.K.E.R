@@ -1,0 +1,45 @@
+body {
+    background-image: url('background2.jpg');
+    background-size: cover;
+}
+
+.titleImage { 
+    position: fixed;
+    top: 15%;
+    left: 7%;
+    user-select: none;
+}
+
+.subTitleImage {
+    position: fixed;
+    top: 37%;
+    left: 64px;
+    user-select: none;
+}
+.options {
+    color: rgb(33, 24, 156);
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.blurredBox {
+ top: 500px;
+ left: 120px;
+ position: fixed;
+ background-color: rgba(0, 0, 0, 0.411);
+ width: 200px;
+ height: 350px;
+}
+
+.theButton {
+    height: 30px;
+    width: 300px;
+    background-image: url('menuButton.jpg');
+    background-size: cover;
+    background-position: center;
+    display: inline-grid;
+    font-family: Arial, Helvetica sans-serif;
+    font-size: 20px;
+}
